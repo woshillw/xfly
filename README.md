@@ -5,13 +5,13 @@
 `$ git clone https://github.com/woshillw/xfly.git`
 `$ git clone https://github.com/woshillw/pid_control.git`
 
-3.启动四旋翼
+3.启动四旋翼  
 `roslaunch xfly mav.launch mav_name:=xfly type:=x`
 
-4.启动pid控制器
+4.启动pid控制器  
 `roslaunch xfly xfly_pid_controller.launch `
 
-5.发送控制指令
+5.发送控制指令  
 `rostopic pub -1 /xfly/command/pose xfly/xfly_pose "header:
 seq: 0
 stamp: {secs: 0, nsecs: 0}
