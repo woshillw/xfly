@@ -2,7 +2,7 @@
 
 2.获取功能包和依赖  
 `$ cd ~/catkin_ws/src`
-`$ git clone https://github.com/woshillw/xfly.git`
+`$ git clone https://github.com/woshillw/xfly.git`  
 `$ git clone https://github.com/woshillw/pid_control.git`
 
 3.启动四旋翼  
