@@ -12,13 +12,13 @@
 `roslaunch xfly xfly_pid_controller.launch `
 
 5.发送控制指令  
-`rostopic pub -1 /xfly/command/pose xfly/xfly_pose "header:
-seq: 0
-stamp: {secs: 0, nsecs: 0}
-frame_id: ''
-x: 3.0
-y: 3.0
-z: 3.0
+`rostopic pub -1 /xfly/command/pose xfly/xfly_pose "header:  
+seq: 0  
+stamp: {secs: 0, nsecs: 0}  
+frame_id: ''  
+x: 3.0  
+y: 3.0  
+z: 3.0  
 " `
 
 6.如果不会使用ROS，可以参考[llwrobot](https://github.com/woshillw/llwrobot)
